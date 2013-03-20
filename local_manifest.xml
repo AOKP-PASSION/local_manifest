@@ -11,6 +11,7 @@
   <remove-project name="android_hardware_ril" />
   <remove-project name="AOKP/vendor_htc" />
   <remove-project name="android_frameworks_opt_telephony" />
+  <remove-project name="AOKP/packages_apps_Settings" />
 
   <!--APPS-->
   <project name="AOKP-MEDIAPAD/android_packages_apps_LockClock" remote="aokp"  path="packages/apps/LockClock" revision="cm-10.1" />
@@ -19,7 +20,8 @@
   <!--PASSION PROJECT-->
   <project name="AOKP-PASSION/frameworks_base" remote="aokp" revision="jb-mr1" path="frameworks/base"  />
   <project name="AOKP-PASSION/device_htc_passion" remote="aokp" revision="jb-mr1" path="device/htc/passion"  />
-   
+  <project name="AOKP-PASSION/packages_apps_Settings" remote="aokp" revision="jb-mr1" path="packages/apps/Settings"  />
+    
   <!--MEDIAPAD PROJECT-->
   <project name="AOKP-MEDIAPAD/frameworks_av" remote="aokp"   revision="jb-mr1" path="frameworks/av" />
   <project name="AOKP-MEDIAPAD/frameworks_native" remote="aokp" revision="jb-mr1" path="frameworks/native"  />
