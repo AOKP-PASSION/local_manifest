@@ -13,7 +13,7 @@
   <remove-project name="android_frameworks_opt_telephony" />
   <remove-project name="AOKP/packages_apps_Settings" />
   <remove-project name="android_hardware_libhardware" />
-
+  <remove-project name="android_hardware_qcom_camera" />
   <!--APPS-->
   <project name="AOKP-MEDIAPAD/android_packages_apps_LockClock" remote="aokp"  path="packages/apps/LockClock" revision="cm-10.1" />
   <project name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" remote="aokp" revision="cm-10.1" />
@@ -22,7 +22,8 @@
   <project name="AOKP-PASSION/frameworks_base" remote="aokp" revision="jb-mr1" path="frameworks/base"  />
   <project name="AOKP-PASSION/device_htc_passion" remote="aokp" revision="jb-mr1" path="device/htc/passion"  />
   <project name="AOKP-PASSION/packages_apps_Settings" remote="aokp" revision="jb-mr1" path="packages/apps/Settings"  />
-    
+  <project name="AOKP-PASSION/android_hardware_qcom_camera" remote="aokp" revision="jb-mr1" path="hardware/qcom/camera"  />
+   
   <!--MEDIAPAD PROJECT-->
   <project name="AOKP-MEDIAPAD/frameworks_av" remote="aokp"   revision="jb-mr1" path="frameworks/av" />
   <project name="AOKP-MEDIAPAD/frameworks_native" remote="aokp" revision="jb-mr1" path="frameworks/native"  />
