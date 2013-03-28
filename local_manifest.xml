@@ -22,16 +22,16 @@
   <project name="AOKP-PASSION/frameworks_base" remote="aokp" revision="jb-mr1" path="frameworks/base"  />
   <project name="AOKP-PASSION/device_htc_passion" remote="aokp" revision="jb-mr1" path="device/htc/passion"  />
   <project name="AOKP-PASSION/packages_apps_Settings" remote="aokp" revision="jb-mr1" path="packages/apps/Settings"  />
-  <project name="AOKP-PASSION/android_hardware_qcom_camera" remote="aokp" revision="jb-mr1" path="hardware/qcom/camera"  />
    
   <!--MEDIAPAD PROJECT-->
-  <project name="AOKP-MEDIAPAD/frameworks_av" remote="aokp"   revision="jb-mr1" path="frameworks/av" />
-  <project name="AOKP-MEDIAPAD/frameworks_native" remote="aokp" revision="jb-mr1" path="frameworks/native"  />
   <project name="AOKP-MEDIAPAD/vendor_aokp" remote="aokp" path="vendor/aokp"  revision="jb-mr1" />
-  <project name="AOKP-MEDIAPAD/external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="aokp" revision="jb-mr1" />
-  <project name="AOKP-MEDIAPAD/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="aokp" revision="jb-mr1" />
 
   <!--Evervolv-->
+  <project name="Evervolv/frameworks_av" remote="aokp"   revision="jellybean" path="frameworks/av" />
+  <project name="Evervolv/frameworks_native" remote="aokp" revision="jellybean" path="frameworks/native"  />
+  <project name="Evervolv/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="aokp" revision="jellybean" />
+  <project name="Evervolv/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="aokp" revision="jellybean" />
+  <project name="Evervolv/android_hardware_qcom_camera" remote="aokp" revision="jellybean" path="hardware/qcom/camera"  />
   <project name="Evervolv/android_hardware_libhardware" path="hardware/libhardware"  remote="aokp" revision="jellybean"/>
   <project name="Evervolv/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy"  remote="aokp" revision="jellybean"/>
   <project name="Evervolv/android_packages_apps_AndroidTerm" remote="aokp" revision="jellybean"/>
