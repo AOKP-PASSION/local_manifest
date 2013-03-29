@@ -27,6 +27,7 @@
   <project name="AOKP-MEDIAPAD/vendor_aokp" remote="aokp" path="vendor/aokp"  revision="jb-mr1" />
 
   <!--Evervolv-->
+  <project name="Evervolv/android_packages_apps_Torch" path="packages/apps/Torch"remote="aokp" revision="jellybean"/>
   <project name="Evervolv/android_frameworks_av" remote="aokp"   revision="jellybean" path="frameworks/av" />
   <project name="Evervolv/android_frameworks_native" remote="aokp" revision="jellybean" path="frameworks/native"  />
   <project name="Evervolv/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="aokp" revision="jellybean" />
