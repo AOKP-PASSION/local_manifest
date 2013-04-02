@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remove-project name="android_hardware_qcom_media" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <remove-project name="AOKP/vendor_aokp" />
   <remove-project name="AOKP/frameworks_base" />
   <remove-project name="AOKP/frameworks_native" />
   <remove-project name="AOKP/frameworks_av" />
-  <remove-project name="android_external_wpa_supplicant_8" />
-  <remove-project name="android_hardware_libhardware_legacy" />
-  <remove-project name="android_hardware_qcom_gps" />
-  <remove-project name="android_hardware_ril" />
+  <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" />
+  <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_gps" />
+  <remove-project name="CyanogenMod/android_hardware_ril" />
   <remove-project name="AOKP/vendor_htc" />
-  <remove-project name="android_frameworks_opt_telephony" />
+  <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
   <remove-project name="AOKP/packages_apps_Settings" />
-  <remove-project name="android_hardware_libhardware" />
-  <remove-project name="android_hardware_qcom_camera" />
+  <remove-project name="CyanogenMod/android_hardware_libhardware" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_camera" />
   <remove-project name="AOKP/packages_apps_ROMControl" />
   <!--APPS-->
   <project name="AOKP-MEDIAPAD/android_packages_apps_LockClock" remote="aokp"  path="packages/apps/LockClock" revision="cm-10.1" />
