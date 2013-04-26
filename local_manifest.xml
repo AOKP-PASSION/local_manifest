@@ -2,49 +2,24 @@
 <manifest>
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <remove-project name="AOKP/vendor_aokp" />
-  <remove-project name="AOKP/frameworks_base" />
+  <remove-project name="AOKP/frameworks_base_disabled" />
   <remove-project name="AOKP/frameworks_native" />
   <remove-project name="AOKP/frameworks_av" />
-  <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" />
-  <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_gps" />
-  <remove-project name="CyanogenMod/android_hardware_ril" />
   <remove-project name="AOKP/vendor_htc" />
-  <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
-  <remove-project name="AOKP/packages_apps_Settings" />
-  <remove-project name="CyanogenMod/android_hardware_libhardware" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_camera" />
-  <remove-project name="AOKP/packages_apps_ROMControl" />
-  <!--APPS-->
-  <project name="AOKP-MEDIAPAD/android_packages_apps_LockClock" remote="aokp"  path="packages/apps/LockClock" revision="cm-10.1" />
-  <project name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" remote="aokp" revision="cm-10.1" />
- 
+  <remove-project name="AOKP/hardware_qcom_display"  />
 
  <!--PASSION PROJECT-->
-  <project name="AOKP-PASSION/frameworks_base" remote="aokp" revision="jb-mr1" path="frameworks/base"  />
-  <project name="AOKP-PASSION/device_htc_passion" remote="aokp" revision="jb-mr1" path="device/htc/passion"  />
-  <project name="AOKP-PASSION/android_device_htc_bravo" remote="aokp" revision="jellybean" path="device/htc/bravo"  />
-  <project name="AOKP-PASSION/packages_apps_Settings" remote="aokp" revision="jb-mr1" path="packages/apps/Settings"  />
-  <project name="AOKP-PASSION/packages_apps_ROMControl" remote="aokp" revision="jb-mr1" path="packages/apps/ROMControl"  />
-  <!--MEDIAPAD PROJECT-->
-  <project name="AOKP-MEDIAPAD/vendor_aokp" remote="aokp" path="vendor/aokp"  revision="jb-mr1" />
+  <project name="AOKP-PASSION/frameworks_base_ics" remote="gh" revision="ics" path="frameworks/base"  />
+  <project name="AOKP-PASSION/device_htc_passion" remote="gh" revision="ics" path="device/htc/passion"  />
+  <project name="AOKP-PASSION/vendor_aokp_ics" remote="gh" path="vendor/aokp"  revision="ics" />
+  
   <!--Evervolv-->
-  <project name="Evervolv/android_packages_apps_Torch" path="packages/apps/Torch" remote="aokp" revision="jellybean"/>
-  <project name="Evervolv/android_frameworks_av" remote="aokp"   revision="jellybean" path="frameworks/av" />
-  <project name="Evervolv/android_frameworks_native" remote="aokp" revision="jellybean" path="frameworks/native"  />
-  <project name="Evervolv/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="aokp" revision="jellybean" />
-  <project name="Evervolv/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="aokp" revision="jellybean" />
-  <project name="Evervolv/android_hardware_qcom_camera" remote="aokp" revision="jellybean" path="hardware/qcom/camera"  />
-  <project name="Evervolv/android_hardware_libhardware" path="hardware/libhardware"  remote="aokp" revision="jellybean"/>
-  <project name="Evervolv/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy"  remote="aokp" revision="jellybean"/>
-  <project name="Evervolv/android_packages_apps_AndroidTerm" path="packages/apps/AndroidTerm"  remote="aokp" revision="jellybean"/>
-  <project name="Evervolv/android_frameworks_opt_telephony" path="frameworks/opt/telephony"  remote="aokp" revision="jellybean"/>
-  <project name="Evervolv/android_device_htc_qsd8k-common" path="device/htc/qsd8k-common"  remote="aokp" revision="jellybean"/>
-  <project name="Evervolv/android_vendor_htc" path="vendor/htc"  remote="aokp" revision="jellybean"/>
-  <project name="Evervolv/android_hardware_ril" path="hardware/ril"  remote="aokp" revision="jellybean"/>
-  <project name="Evervolv/android_hardware_qcom_gps" path="hardware/qcom/gps" remote="aokp" revision="jellybean"/>
-  <project name="Evervolv/android_hardware_qcom_gps-legacy" path="hardware/qcom/gps-legacy" remote="aokp" revision="jellybean"/>
-  <project name="Evervolv/android_hardware_qcom_audio-legacy" path="hardware/qcom/audio-legacy" remote="aokp" revision="jellybean"/>
-  <project name="Evervolv/android_hardware_qcom_media" remote="aokp"  path="hardware/qcom/media" revision="jellybean" />
-  <project name="Evervolv/android_hardware_qcom_media-legacy" remote="aokp" path="hardware/qcom/media-legacy" revision="jellybean" />
+  <project name="Evervolv/android_frameworks_av" remote="gh"   revision="ics" path="frameworks/av" />
+  <project name="Evervolv/android_frameworks_native" remote="gh" revision="ics" path="frameworks/native"  />
+  <project name="Evervolv/android_hardware_qcom_display" path="hardware/qcom/display"  remote="gh" revision="ics"/>
+  <project name="Evervolv/android_packages_apps_AndroidTerm" path="packages/apps/AndroidTerm"  remote="gh" revision="ics"/>
+  <project name="Evervolv/android_device_htc_qsd8k-common" path="device/htc/qsd8k-common"  remote="gh" revision="ics"/>
+  <project name="Evervolv/android_vendor_htc" path="vendor/htc"  remote="gh" revision="ics"/>
+  <project name="Evervolv/android_hardware_qcom_media" remote="gh"  path="hardware/qcom/media" revision="ics" />
+  
 </manifest>
