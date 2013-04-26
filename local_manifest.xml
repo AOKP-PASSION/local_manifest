@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
-  <remove-project name="AOKP/vendor_aokp" />
+  <remove-project name="AOKP/vendor_aokp_ics" />
   <remove-project name="AOKP/frameworks_base_disabled" />
   <remove-project name="AOKP/frameworks_native" />
   <remove-project name="AOKP/frameworks_av" />
