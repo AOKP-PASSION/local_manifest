@@ -3,8 +3,6 @@
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <remove-project name="AOKP/vendor_aokp_ics" />
   <remove-project name="AOKP/frameworks_base_disabled" />
-  <remove-project name="AOKP/frameworks_native" />
-  <remove-project name="AOKP/frameworks_av" />
   <remove-project name="AOKP/vendor_htc" />
   <remove-project name="AOKP/hardware_qcom_display"  />
 
@@ -14,8 +12,6 @@
   <project name="AOKP-PASSION/vendor_aokp_ics" remote="gh" path="vendor/aokp"  revision="ics" />
   
   <!--Evervolv-->
-  <project name="Evervolv/android_frameworks_av" remote="gh"   revision="ics" path="frameworks/av" />
-  <project name="Evervolv/android_frameworks_native" remote="gh" revision="ics" path="frameworks/native"  />
   <project name="Evervolv/android_hardware_qcom_display" path="hardware/qcom/display"  remote="gh" revision="ics"/>
   <project name="Evervolv/android_packages_apps_AndroidTerm" path="packages/apps/AndroidTerm"  remote="gh" revision="ics"/>
   <project name="Evervolv/android_device_htc_qsd8k-common" path="device/htc/qsd8k-common"  remote="gh" revision="ics"/>
