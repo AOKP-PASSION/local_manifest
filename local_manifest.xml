@@ -16,7 +16,7 @@
   <remove-project name="CyanogenMod/android_hardware_qcom_camera" />
   <remove-project name="AOKP/packages_apps_ROMControl" />
   <!--APPS-->
-  <project name="AOKP-MEDIAPAD/android_packages_apps_LockClock" remote="aokp"  path="packages/apps/LockClock" revision="cm-10.1" />
+  <project name="AOKPZMod/android_packages_apps_LockClock" remote="aokp"  path="packages/apps/LockClock" revision="cm-10.1" />
   <project name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" remote="aokp" revision="cm-10.1" />
  
 
@@ -27,7 +27,7 @@
   <project name="AOKP-PASSION/packages_apps_Settings" remote="aokp" revision="jb-mr1" path="packages/apps/Settings"  />
   <project name="AOKP-PASSION/packages_apps_ROMControl" remote="aokp" revision="jb-mr1" path="packages/apps/ROMControl"  />
   <!--MEDIAPAD PROJECT-->
-  <project name="AOKP-MEDIAPAD/vendor_aokp" remote="aokp" path="vendor/aokp"  revision="jb-mr1" />
+  <project name="AOKPZMod/vendor_aokp" remote="aokp" path="vendor/aokp"  revision="jb-mr1" />
   <!--Evervolv-->
   <project name="Evervolv/android_packages_apps_Torch" path="packages/apps/Torch" remote="aokp" revision="jellybean"/>
   <project name="Evervolv/android_frameworks_av" remote="aokp"   revision="jellybean" path="frameworks/av" />
